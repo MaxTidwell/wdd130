@@ -3,8 +3,8 @@
     --secondary-color: rgb(255, 208, 170);
     --accent1-color: rgb(0, 0, 177);
     --accent2-color: rgb(135, 135, 135);
-    --heading-font: "Times New Roman", "Georgia", serif;
-    --body-font: Arial, Helvetica, sans-serif;
+    --heading-font: "times new roman", "georgia", serif;
+    --body-font: arial, helvetica, sans-serif;
 }
 
 * {
@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--body-font);
-    color: (var(--accent1-color));
+    color: var(--accent1-color);
 }
 
 header, main, footer {
@@ -68,7 +68,7 @@ h1 {
 article {
     position: absolute;
     top: 275px;
-    border: 1px, solid, black;
+    border: 1px solid black;
     background-color: var(--accent2-color);
 }
 
