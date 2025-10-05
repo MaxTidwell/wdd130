@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Whitewater Rafting</title>
+    <meta name="contact" content="How to contact the whitewater rafting company">
+    <meta name="author" content="max tidwell">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/rafting_logo.png" alt="rafting logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact">
+            <h2>Whitewater Rafting Company</h2>
+            <p>123 Main River Street <br>
+                Fairfield California <br>
+                +1 999 999 9999 <br>
+                info@whitewater.com</p>
+        </div>
+
+        <fieldset>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29816.490254945224!2d-122.04077288674974!3d38.23142562581515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808515001eb0361f%3A0xd10c4a35b1fa7ada!2sPeytonia%20Slough%20Ecological%20Reserve!5e0!3m2!1sen!2sus!4v1759536401427!5m2!1sen!2sus"
+                    width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+
+                <p>Message Purpose:</p>
+                <div>
+                    <label><input type="radio" id="inquiry" name="inquiry"> General Inquiry</label><br>
+                    <label><input type="radio" id="reserve" name="purpose" value="b"> Reservation Question</label><br>
+                    <label><input type="radio" id="suggest" name="purpose" value="c"> Website Suggestion</label>
+                </div>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="3" placeholder="Type here"></textarea>
+
+                <div class="checkbox-group">
+                    <label><input type="checkbox" id="news" name="news"> I want to subscribe to the monthly
+                        newsletter</label>
+                </div>
+
+                <button type="submit">Get in touch!</button>
+            </form>
+        </fieldset>
+
+        <h3>We Are Here To Serve You</h3>
+        <div class="employee">
+            <figure>
+                <img src="images/rafting_brett.jpg" alt="brett">
+                <figcaption>Brett Bretson</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting_dave.jpg" alt="dave">
+                <figcaption>Dave Davison</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting_jackson.jpg" alt="jackson">
+                <figcaption>Jackson Jaquesonne</figcaption>
+            </figure>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy;2025 | Whitewater Rafting | Max Tidwell</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook_logo.png" alt="facebook icon"></a>
+            <a href="https://instagram.com"><img src="images/instagram_logo.png" alt="instagram icon"></a>
+            <a href="https://youtube.com"><img src="images/youtube_logo.png" alt="youtube icon"></a>
+        </nav>
+    </footer>
+</body>
+
+
+</html>
