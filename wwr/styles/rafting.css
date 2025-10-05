@@ -149,6 +149,16 @@ footer {
     text-align: center;
 }
 
+.contact h1 {
+    position: initial;
+    top: 0px;
+    width: 100%;
+    padding: 0px;
+    opacity: 1;
+    background-color: white;
+    color: black;
+}
+
 fieldset {
   display: grid;
   grid-template-columns: 1fr 1fr; /* two equal columns */
