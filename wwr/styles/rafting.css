@@ -270,3 +270,47 @@ legend {
 .about h3 {
     grid-column: span 2;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+thead {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.all_trips {
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  gap: 1rem;
+  align-items: start;
+  padding: 2rem;
+}
+
+.trip_table, .trip_list {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border: 1px solid lightgray;
+}
+
+.trip_list {
+    padding: 5px;
+    text-align: center;
+}
+
+.trip_table img {
+    width: 100%;
+}
+
+.trip_table p {
+    text-align: end;
+}
