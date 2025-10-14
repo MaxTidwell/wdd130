@@ -303,7 +303,8 @@ thead {
 }
 
 .trip_list {
-    padding: 5px;
+    padding: 0;
+    font-size: small;
     text-align: center;
 }
 
