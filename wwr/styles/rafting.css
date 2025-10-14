@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgb(36, 131, 10);
-    --secondary-color: rgb(255, 208, 170);
+    --secondary-color: rgb(251, 233, 208);
     --accent1-color: rgb(0, 0, 177);
     --accent2-color: rgb(135, 135, 135);
     --heading-font: "times new roman", "georgia", serif;
@@ -62,6 +62,7 @@ ul {
 
 .hero {
     position: relative;
+    grid-column: span 2;
 }
 
 .hero img {
@@ -222,4 +223,50 @@ h3 {
   margin-top: 8px;
   font-weight: bold;
   font-size: 0.9em;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: start;
+    padding: 2rem;
+}
+
+.column1 {
+    max-width: 500px;
+}
+
+.column2 {
+    max-width: 700px;
+    padding: .7rem;
+}
+
+legend {
+    font-weight: 700;
+}
+
+.column2 button {
+  display: block;
+  margin: 1rem auto;
+  max-width: 50%;
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+.column2 fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border: 1px solid tan;
+    width: 350px;
+}
+
+.column2 input {
+    width: 300px;
+}
+
+.about h3 {
+    grid-column: span 2;
 }
