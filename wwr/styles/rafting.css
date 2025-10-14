@@ -2,7 +2,7 @@
     --primary-color: rgb(36, 131, 10);
     --secondary-color: rgb(251, 233, 208);
     --accent1-color: rgb(0, 0, 177);
-    --accent2-color: rgb(135, 135, 135);
+    --accent2-color: rgb(207, 207, 207);
     --heading-font: "times new roman", "georgia", serif;
     --body-font: arial, helvetica, sans-serif;
 }
@@ -162,7 +162,7 @@ footer {
 
 fieldset {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* two equal columns */
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
   align-items: start;
   border: none;
